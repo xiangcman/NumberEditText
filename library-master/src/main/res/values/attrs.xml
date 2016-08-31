@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="DynamicInputView">
+        <attr name="max_number" format="integer" />
+        <attr name="hint_text" format="string|reference" />
+        <attr name="text_size" format="dimension" />
+        <attr name="text_color" format="color" />
+    </declare-styleable>
+</resources>

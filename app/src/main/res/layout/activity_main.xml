@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context="com.single.dynamicinput.MainActivity">
+
+    <com.library.dynamicinput.DynamicInputView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        custom:hint_text="请输入内容"
+        custom:max_number="200"
+        custom:text_size="@dimen/text_size" />
+</LinearLayout>
